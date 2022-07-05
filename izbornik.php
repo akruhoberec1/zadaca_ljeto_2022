@@ -63,6 +63,9 @@
                         <li><a target="_blank" href="Z09.php">Zadatak 9</a></li>
                         <li><a target="_blank" href="Z10.php">Zadatak 10</a></li>
                         <li><a target="_blank" href="Z11.php">Zadatak 11</a></li>
+                        <a href="inchoo.php">Inchoo Zadatak</a>
+                        <a href="inchoo2.php">Inchoo Zadatak2</a>
+                        <a href="inchoo3.php">Inchoo Zadatak3</a>
                     </ul>
                 </li>
             </ul>

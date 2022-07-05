@@ -5,11 +5,11 @@
 
 // DZ: Napraviti da radi za bilo koja dva unesena broja
 //     Putem GET metode
-
+$k==0;
 echo '<table border="1">';
-for($i=0;$i<3;$i++){
+for($i=0;$i<5;$i++){
     echo '<tr>';
-    for($j=0;$j<3;$j++){
+    for($j=0;$j<5;$j++){
         echo '<td>';
         if(
             ($i===0 && $j===0)
@@ -22,7 +22,7 @@ for($i=0;$i<3;$i++){
         ){
             echo 'X';
         }else{
-            echo '&nbsp;';
+            echo 'O';
         }
         echo '</td>';
     }
