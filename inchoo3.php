@@ -48,10 +48,11 @@ echo '<tr>';
   echo '<td>';
   
   //glavna petlja od petlji
-    
-for($i=$x-1 && $j=$y-1;$j=0;$j--){
-  echo $k++;
-}
+  //ideja je postaviti jednu koordinatu i iterirati po drugoj pa obrnuto dok se ne popuni tablica
+
+  for($i=$x-1, $j=$y-1;$j=0;$j--){
+    echo $k++;
+  }
 
 
   '</td>';
