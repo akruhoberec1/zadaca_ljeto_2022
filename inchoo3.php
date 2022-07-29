@@ -29,7 +29,7 @@
         </label>
 
         
-        <input class="medium-6 cell" type="submit" value="Odradi">
+        <input class="medium-6 cell" type="submit" value="Izradi tablicu">
 
         </form>
 
@@ -39,21 +39,36 @@
 
 echo '<table border="1">';
 
-$k=0;
-
+$k=1;
+$zbroj=$x*$y;
 
 for($i=0;$i<$x;$i++){
-    echo '<tr>';
-    for($j=0;$j<$y;$j++){
-        echo '<td>';
-    if($i == $x-1 && $j == $y-1){
-      echo ++$k;
-    }
-    echo '</td>';
+echo '<tr>';
+  for($j=0;$j<$y;$j++){
+  echo '<td>';
+  
+  //glavna petlja od petlji
+    
+for($i=$x-1 && $j=$y-1;$j=0;$j--){
+  echo $k++;
 }
-    echo '</tr>';
+
+
+  '</td>';
+  }
+echo '</tr>';
 }
+
+
+
 echo '</table>';
+
+
+
+
+
+
+
   ?>
 
 
